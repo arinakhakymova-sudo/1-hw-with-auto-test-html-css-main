@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #2965f1;
+    width: 1440px;
+    height: 70px;
+}
+
+span.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    padding: 23px 0px;
+    display: inline-block;
+}
+
+section[data-cy="hw1-section-main-pre"] {
+    padding: 60px 0px;
+    background-color: #fafaff;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+
+}
+
+img {
+    max-width: 715px;
+}
+
+section[data-cy="hw1-section-about-pre"] {
+    background-color: #fff;
+    padding: 100px 0 ;
+}
+
+select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background: url(./assets/ep_arrow-down.svg) no-repeat right 12px top 50%;
+    appearance: none;
+}
+
+option {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.main-dish, .dessert, label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+
+input[type="text"] {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+}
+
+.text-input {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+
+button {
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+hr {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #95a1bb;
+    margin-bottom: 100px;
+}
+
+.table-title {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
+    text-align: center;
+
+}
+
+td {
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+    padding: 11px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    width: 1440px;
+height: 70px; 
+padding: 23px 0;
+}
+
+.logo-link {
+    font-weight: 400;
+font-size: 14px;
+color: #2965f1;
+}
